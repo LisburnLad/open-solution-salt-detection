@@ -6,9 +6,9 @@ import torch.nn as nn
 from functools import partial
 from toolkit.pytorch_transformers.models import Model
 
-from .utils import sigmoid, softmax, get_list_of_image_predictions
-from . import callbacks as cbk
-from .unet_models import AlbuNet, UNet11, UNetVGG16, UNetResNet
+from utils import sigmoid, softmax, get_list_of_image_predictions
+import callbacks as cbk
+from unet_models import AlbuNet, UNet11, UNetVGG16, UNetResNet
 
 PRETRAINED_NETWORKS = {'VGG11': {'model': UNet11,
                                  'model_config': {'pretrained': True},

@@ -2,7 +2,7 @@ import numpy as np
 from scipy import ndimage as ndi
 from skimage.transform import resize
 
-from .utils import get_crop_pad_sequence
+from utils import get_crop_pad_sequence
 
 
 def resize_image(image, target_size):

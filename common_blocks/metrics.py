@@ -2,7 +2,7 @@ import numpy as np
 from tqdm import tqdm
 from pycocotools import mask as cocomask
 
-from .utils import get_segmentations
+from utils import get_segmentations
 
 
 def iou(gt, pred):

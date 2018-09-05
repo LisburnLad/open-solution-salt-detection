@@ -3,7 +3,7 @@ import numpy as np
 import imgaug as ia
 from imgaug import augmenters as iaa
 
-from .utils import get_crop_pad_sequence, reseed
+from utils import get_crop_pad_sequence, reseed
 
 
 def _perspective_transform_augment_images(self, images, random_state, parents, hooks):

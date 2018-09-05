@@ -15,9 +15,9 @@ from steppy.adapter import Adapter, E
 from toolkit.pytorch_transformers.utils import Averager, persist_torch_model
 from toolkit.pytorch_transformers.validation import score_model
 
-from .utils import get_logger, sigmoid, softmax, make_apply_transformer, read_masks, get_list_of_image_predictions
-from .metrics import intersection_over_union, intersection_over_union_thresholds
-from .postprocessing import crop_image, resize_image, binarize
+from utils import get_logger, sigmoid, softmax, make_apply_transformer, read_masks, get_list_of_image_predictions
+from metrics import intersection_over_union, intersection_over_union_thresholds
+from postprocessing import crop_image, resize_image, binarize
 
 logger = get_logger()
 
