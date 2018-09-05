@@ -3,9 +3,9 @@ from functools import partial
 from steppy.base import Step, IdentityOperation
 from steppy.adapter import Adapter, E
 
-from . import loaders
-from .utils import make_apply_transformer
-from .postprocessing import crop_image, resize_image, binarize
+import loaders
+from utils import make_apply_transformer
+from postprocessing import crop_image, resize_image, binarize
 
 
 def preprocessing_train(config, model_name='unet', suffix=''):
