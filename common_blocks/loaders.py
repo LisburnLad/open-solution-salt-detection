@@ -14,7 +14,7 @@ from tqdm import tqdm
 import json
 from steppy.base import BaseTransformer
 
-from .utils import from_pil, to_pil, binary_from_rle, ImgAug
+from utils import from_pil, to_pil, binary_from_rle, ImgAug
 
 
 class ImageReader(BaseTransformer):
