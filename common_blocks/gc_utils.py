@@ -4,6 +4,7 @@ import pandas as pd
 
 from sklearn.model_selection import BaseCrossValidator
 
+
 class KFoldBySortedValue(BaseCrossValidator):
     def __init__(self, n_splits=3, shuffle=False, random_state=None):
         self.n_splits = n_splits
