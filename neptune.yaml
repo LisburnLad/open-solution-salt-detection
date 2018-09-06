@@ -24,10 +24,10 @@ exclude:
 
 parameters:
   # Data Paths
-  train_images_dir: /public/challenges/kaggle-salt-identification/train
-  test_images_dir: /public/challenges/kaggle-salt-identification/test
-  metadata_filepath: /input/metadata.csv # if you are running prepare_metadata change it to  /output/metadata.csv here
-  depths_filepath: /public/challenges/kaggle-salt-identification/depths.csv
+  train_images_dir: /content/training
+  test_images_dir: /content/testing
+  metadata_filepath: /root/data/metadata.csv
+  depths_filepath: /root/data/depths.csv
 
   # Execution
   overwrite: 1
